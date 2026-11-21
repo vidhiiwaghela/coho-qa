@@ -1,0 +1,23 @@
+{
+  "name": "coho-qa",
+  "version": "1.0.0",
+  "description": "QA testing of CoHo, a housing society management app : test cases, bug reports, Playwright automation",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vidhiiwaghela/coho-qa.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vidhiiwaghela/coho-qa/issues"
+  },
+  "homepage": "https://github.com/vidhiiwaghela/coho-qa#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^26.6.6"
+  }
+}
