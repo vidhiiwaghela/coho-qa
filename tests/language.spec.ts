@@ -1,6 +1,6 @@
 import { test, expect } from '@playwright/test';
 
-test('TC-017 Rules page switches to Hindi', async ({ page }) => {
+test('TC-030 Rules page switches to Hindi', async ({ page }) => {
   const pin = process.env.COHO_PIN;
   if (!pin) throw new Error('COHO_PIN is missing from the .env file');
 
