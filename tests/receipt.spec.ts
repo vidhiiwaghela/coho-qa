@@ -1,7 +1,7 @@
 import { test, expect } from '@playwright/test';
 
 
-test('Tc-029 Receipt is being downloaded', async ({ page }) => {
+test('TC-029 Receipt is being downloaded', async ({ page }) => {
     const pin = process.env.COHO_PIN;
     if (!pin) throw  new Error("COHO_PIN is missing from the env file")
   await page.goto('/');
